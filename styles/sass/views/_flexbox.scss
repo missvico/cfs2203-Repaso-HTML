@@ -1,0 +1,17 @@
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    background-color: lightcyan;
+}
+
+#skills{
+    align-self: flex-start;
+}
+
+.flexContainer section{
+    width: 400px;
+    margin: 1%
+}

@@ -1,0 +1,72 @@
+//common
+@import 'common/variables';
+@import 'common/mixins';
+
+//components
+@import 'views/navbar';
+@import 'views/flexbox';
+
+p {
+    text-align: justify;
+    line-height: 25px;
+}
+
+#portfolio{
+    width: 60vw;
+    height: 45vw;
+    margin: 0 auto;
+}
+
+
+#profile{
+    &Name{
+        color: blueviolet;
+        font-family: $primary-font
+    };
+    &Occupation{
+        text-decoration: underline double;
+    };
+    &Picture{
+        margin: 10px;
+    border: solid 4px $primary-color;
+    border-radius: 200px;
+    }
+}
+
+
+#aboutMe {
+    border: solid 4px $primary-color;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 2vw 5%;
+    p{
+        font-style: italic;
+    }
+}
+
+
+.sectionTitle {
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  $secondary-color;
+    font-size: 20px;
+}
+
+section {
+    &#jobExperience{
+        @include section(rgb(165, 66, 165),plum, purple)
+    }
+    &#skills{
+        @include section(rgb(97, 165, 66),rgb(217, 240, 217),rgb(3, 94, 25))
+    }
+    &#references{
+        @include section(rgb(66, 137, 165),rgb(217, 233, 240),rgb(3, 5, 94))
+    }
+}
+
+.customButton{
+    background-color: $tertiary-color;
+    text-transform: uppercase;
+}
+
+

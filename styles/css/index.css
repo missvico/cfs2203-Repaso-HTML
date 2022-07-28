@@ -1,0 +1,105 @@
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav li {
+  padding: 10px;
+  border: solid 2px darkblue;
+}
+nav li:hover {
+  background-color: #b2d8d8;
+}
+nav a {
+  text-decoration: none;
+  color: darkblue;
+}
+nav a:visited {
+  color: darkblue;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+  background-color: lightcyan;
+}
+
+#skills {
+  align-self: flex-start;
+}
+
+.flexContainer section {
+  width: 400px;
+  margin: 1%;
+}
+
+p {
+  text-align: justify;
+  line-height: 25px;
+}
+
+#portfolio {
+  width: 60vw;
+  height: 45vw;
+  margin: 0 auto;
+}
+
+#profileName {
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#profileOccupation {
+  text-decoration: underline double;
+}
+#profilePicture {
+  margin: 10px;
+  border: solid 4px #ff8614;
+  border-radius: 200px;
+}
+
+#aboutMe {
+  border: solid 4px #ff8614;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 2vw 5%;
+}
+#aboutMe p {
+  font-style: italic;
+}
+
+.sectionTitle {
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: darkblue;
+  font-size: 20px;
+}
+
+section#jobExperience {
+  color: #a542a5;
+  background-color: plum;
+}
+section#jobExperience h3 {
+  color: purple;
+}
+section#skills {
+  color: #61a542;
+  background-color: #d9f0d9;
+}
+section#skills h3 {
+  color: #035e19;
+}
+section#references {
+  color: #4289a5;
+  background-color: #d9e9f0;
+}
+section#references h3 {
+  color: #03055e;
+}
+
+.customButton {
+  background-color: #b2d8d8;
+  text-transform: uppercase;
+}

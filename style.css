@@ -1,0 +1,74 @@
+p {
+    color: darkblue;
+    text-align: justify;
+    line-height: 25px;
+}
+
+#profileName {
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#profileOccupation {
+    text-decoration: underline double;
+} 
+
+#profilePicture{
+    margin: 10px;
+    border: solid 4px rgb(255, 149, 50);
+    border-radius: 200px;
+}
+
+#aboutMe {
+    border: solid 4px rgb(255, 149, 50);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 2vw 5%;
+}
+
+#aboutMe  p {
+    font-style: italic;
+}
+
+
+.sectionTitle {
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(124, 3, 124);
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+     padding: 10px;
+     border: solid 2px blueviolet;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    background-color: lightcyan;
+}
+
+#skills{
+    align-self: flex-start;
+}
+
+.flexContainer section{
+    background-color: plum;
+    width: 400px;
+    margin: 1%
+}

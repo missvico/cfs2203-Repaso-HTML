@@ -1,0 +1,7 @@
+@mixin section($color, $bg-color, $title-color ){
+        color: $color;
+        background-color: $bg-color;
+        h3 {
+            color: $title-color;
+        }
+}

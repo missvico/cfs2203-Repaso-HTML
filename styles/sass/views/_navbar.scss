@@ -1,0 +1,24 @@
+nav {
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    };
+    li {
+        padding: 10px;
+        border: solid 2px  $secondary-color;
+
+        &:hover{
+            background-color: $tertiary-color;
+        }
+    };
+    a {
+        text-decoration: none;
+        color: $secondary-color;
+        &:visited{
+            color: $secondary-color
+        }
+    }
+
+}
+
